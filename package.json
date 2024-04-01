@@ -1,7 +1,7 @@
 {
-  "homepage": "https://ahmedelhdad.github.io",
   "name": "my-app",
   "version": "0.1.0",
+  "homepage": "https://ahmedelhdad.github.io/Ahmed",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
