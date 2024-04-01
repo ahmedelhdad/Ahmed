@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Ahmed/static/css/main.44c70111.css",
-    "main.js": "/Ahmed/static/js/main.1de68951.js",
+    "main.js": "/Ahmed/static/js/main.ea1526b9.js",
     "static/media/kapes.PNG": "/Ahmed/static/media/kapes.25579d37551b159df34f.PNG",
     "static/media/Cafe.PNG": "/Ahmed/static/media/Cafe.dd5d74864418ade6573a.PNG",
     "static/media/Rafcart.PNG": "/Ahmed/static/media/Rafcart.9370e6f0e14d0b50b7ba.PNG",
@@ -9,7 +9,7 @@
     "static/media/Specail.PNG": "/Ahmed/static/media/Specail.253b46f1d64ebe0a8d76.PNG",
     "static/media/Foodera.PNG": "/Ahmed/static/media/Foodera.6f16ce603fa08972ef4d.PNG",
     "static/media/Almas.PNG": "/Ahmed/static/media/Almas.0dd6e5be3639b57c2138.PNG",
-    "static/media/Mern Stack Cv.pdf": "/Ahmed/static/media/Mern Stack Cv.03dca269eb2f3d58c28d.pdf",
+    "static/media/Mern Stack Cv.pdf": "/Ahmed/static/media/Mern Stack Cv.4514cabb9fbd275641b0.pdf",
     "static/media/Buy Onlin React.PNG": "/Ahmed/static/media/Buy Onlin React.bf388d9cf625d54d46a1.PNG",
     "static/media/Buy Onlin Next.PNG": "/Ahmed/static/media/Buy Onlin Next.385c7f48d7c07aa7e56e.PNG",
     "static/media/Chicken.PNG": "/Ahmed/static/media/Chicken.153434752c75678697e7.PNG",
@@ -28,10 +28,10 @@
     "static/media/Vector2.png": "/Ahmed/static/media/Vector2.28db5bfd58081dd1df1b.png",
     "index.html": "/Ahmed/index.html",
     "main.44c70111.css.map": "/Ahmed/static/css/main.44c70111.css.map",
-    "main.1de68951.js.map": "/Ahmed/static/js/main.1de68951.js.map"
+    "main.ea1526b9.js.map": "/Ahmed/static/js/main.ea1526b9.js.map"
   },
   "entrypoints": [
     "static/css/main.44c70111.css",
-    "static/js/main.1de68951.js"
+    "static/js/main.ea1526b9.js"
   ]
 }
