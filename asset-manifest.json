@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Ahmed/static/css/main.44c70111.css",
+    "main.js": "/Ahmed/static/js/main.1de68951.js",
+    "static/media/kapes.PNG": "/Ahmed/static/media/kapes.25579d37551b159df34f.PNG",
+    "static/media/Cafe.PNG": "/Ahmed/static/media/Cafe.dd5d74864418ade6573a.PNG",
+    "static/media/Rafcart.PNG": "/Ahmed/static/media/Rafcart.9370e6f0e14d0b50b7ba.PNG",
+    "static/media/Clothes.PNG": "/Ahmed/static/media/Clothes.41953edf1a936db7d648.PNG",
+    "static/media/Specail.PNG": "/Ahmed/static/media/Specail.253b46f1d64ebe0a8d76.PNG",
+    "static/media/Foodera.PNG": "/Ahmed/static/media/Foodera.6f16ce603fa08972ef4d.PNG",
+    "static/media/Almas.PNG": "/Ahmed/static/media/Almas.0dd6e5be3639b57c2138.PNG",
+    "static/media/Mern Stack Cv.pdf": "/Ahmed/static/media/Mern Stack Cv.03dca269eb2f3d58c28d.pdf",
+    "static/media/Buy Onlin React.PNG": "/Ahmed/static/media/Buy Onlin React.bf388d9cf625d54d46a1.PNG",
+    "static/media/Buy Onlin Next.PNG": "/Ahmed/static/media/Buy Onlin Next.385c7f48d7c07aa7e56e.PNG",
+    "static/media/Chicken.PNG": "/Ahmed/static/media/Chicken.153434752c75678697e7.PNG",
+    "static/media/Twitter.PNG": "/Ahmed/static/media/Twitter.f344def6be037a69737e.PNG",
+    "static/media/Elhdad.PNG": "/Ahmed/static/media/Elhdad.dab62b8b79d525bc08df.PNG",
+    "static/media/Team.PNG": "/Ahmed/static/media/Team.dd9a6d19e03853483758.PNG",
+    "static/media/boy.jpg": "/Ahmed/static/media/boy.e7e5b7df4dc1edde61b1.jpg",
+    "static/media/glassesimoji.png": "/Ahmed/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/Gumela.ttf": "/Ahmed/static/media/Gumela.bf98a454247ad9695fde.ttf",
+    "static/media/Bandi.PNG": "/Ahmed/static/media/Bandi.1fde1f38fc659124fd95.PNG",
+    "static/media/thumbup.png": "/Ahmed/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/OOP.PNG": "/Ahmed/static/media/OOP.401ac98e22e24e5d2acf.PNG",
+    "static/media/humble.png": "/Ahmed/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/wave.png": "/Ahmed/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/crown.png": "/Ahmed/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/Ahmed/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "index.html": "/Ahmed/index.html",
+    "main.44c70111.css.map": "/Ahmed/static/css/main.44c70111.css.map",
+    "main.1de68951.js.map": "/Ahmed/static/js/main.1de68951.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44c70111.css",
+    "static/js/main.1de68951.js"
+  ]
+}
