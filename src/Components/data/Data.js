@@ -8,7 +8,42 @@ import Coffee from '../../img/Porject/Cafe.PNG'
 import Restaurant from '../../img/Porject/Foodera.PNG'
 import Twiiter from '../../img/Porject/Twitter.PNG'
 import Oop from '../../img/Porject/OOP.PNG'
+import Kapes from '../../img/Porject/kapes.PNG'
+import Specail from '../../img/Porject/Specail.PNG'
+import Almas from '../../img/Porject/Almas.PNG'
+import Rafcart from '../../img/Porject/Rafcart.PNG'
+import Chicken from '../../img/Porject/Chicken.PNG'
+import Clothes from '../../img/Porject/Clothes.PNG'
 const work =[
+    {
+        id:15,
+        title:'Rafacrt',
+        gitHub:'https://github.com/ahmedelhdad/E-commerce-Clothes',
+        url:'https://e-commerce-rafcart.vercel.app/',
+        image:Clothes,
+        use:['Next','React','Tailwind','node js'],
+        type:'next'
+    },
+    {
+        id:13,
+        title:'Rafacrt',
+        gitHub:'https://github.com/ahmedelhdad/E-commerce-Rafcart',
+        url:'https://e-commerce-rafcart.vercel.app/',
+        image:Rafcart,
+        use:['React','Tailwind','node js',"Firebase"],
+        type:'react'
+
+    },
+    {
+        id:14,
+        title:'Chicken city',
+        gitHub:'https://github.com/ahmedelhdad/frontFirebase',
+        url:'https://front-firebase.vercel.app/',
+        image:Chicken,
+        use:['React','Tailwind',"Firebase"],
+        type:'react'
+
+    },
     {
         id:1,
         title:'My Graduation Projects',
@@ -95,6 +130,36 @@ const work =[
         image:Oop,
         use:['html','css','javascript'],
         type:'javascript'
+
+    },
+    {
+        id:10,
+        title:'Kapes',
+        gitHub:'https://github.com/ahmedelhdad/projectHtmlCss',
+        url:'https://ahmedelhdad.github.io/projectHtmlCss/',
+        image:Kapes,
+        use:['html','css'],
+        type:'htmlcss'
+
+    },
+    {
+        id:11,
+        title:'Specail-Desgin',
+        gitHub:'https://github.com/ahmedelhdad/-Specail-Desgin',
+        url:'https://ahmedelhdad.github.io/-Specail-Desgin/',
+        image:Specail,
+        use:['html','css','javascript'],
+        type:'javascript'
+
+    },
+    {
+        id:12,
+        title:'Almas',
+        gitHub:'https://github.com/ahmedelhdad/Almas',
+        url:'https://ahmedelhdad.github.io/Almas/',
+        image:Almas,
+        use:['html','css','javascript'],
+        type:'htmlcss'
 
     }
 ]

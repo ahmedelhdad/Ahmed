@@ -9,23 +9,28 @@ const Work = () => {
   const [projects, setProjects] = useState(Data);
   const handlerWork = projects.map((item) => {
     return (
-      <div className="box" key={item.id}>
+      <motion.div
+        initial={{ translateX: "99%" }}
+        whileInView={{ translateX: "0px" }}
+        translate={transiton}
+        className="box" key={item.id}>
         <img src={item.image} alt={item.title} />
         <div className="over">
-          <a  target={"blank"} href={item.gitHub}>
+          <a target={"blank"} href={item.gitHub}>
             <FaGithub />
           </a>
-          <a 
-          target={"blank"}
-          href={item.url}>
+          <a
+            target={"blank"}
+            href={item.url}>
             <FaGoogleWallet />
           </a>
         </div>
-      </div>
+      </motion.div>
     );
   });
   const handler = (e) => {
-  const updatedList = Data.filter((project) =>project.type === e.target.type )
+    const projects  = Data
+    const updatedList = projects.filter((project) => project.type === e.target.type)
     setProjects(updatedList)
   };
   return (
@@ -46,12 +51,6 @@ const Work = () => {
           <li className="button" onClick={handler} type="javascript">
             Javascript
           </li>
-          <li className="button" onClick={handler} type="bootsrap">
-            Bootsrap
-          </li>
-          <li className="button" onClick={handler} type="tailwind">
-            Tailwind
-          </li>
           <li className="button" onClick={handler} type="react">
             React
           </li>
@@ -61,10 +60,10 @@ const Work = () => {
         </motion.ul>
       </div>
       <motion.div
-      initial={{ translateX: "-99%" }}
-      whileInView={{ translateX: "0px" }}
-      translate={transiton}
-       className="container img-work">{handlerWork}</motion.div>
+        initial={{ translateX: "-99%" }}
+        whileInView={{ translateX: "0px" }}
+        translate={transiton}
+        className="container img-work">{handlerWork}</motion.div>
     </div>
   );
 };

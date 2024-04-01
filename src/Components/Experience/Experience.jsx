@@ -1,6 +1,7 @@
 import React from "react";
 import "./Experience.css";
 import {motion} from 'framer-motion'
+import Data from "../data/Data";
 const Experience = () => {
   const transiton = {duration:2,type:'spring'}
   return (
@@ -19,12 +20,12 @@ const Experience = () => {
         transiton={transiton}
         className="center-experience">
           <div className="box">
-            <h1>2+</h1>
+            <h1>3+</h1>
             <h5>years</h5>
             <h3>Experience</h3>
           </div>
           <div className="box">
-            <h1>16+</h1>
+            <h1>{Data.length}+</h1>
             <h5>completed</h5>
             <h3>Projects</h3>
           </div>

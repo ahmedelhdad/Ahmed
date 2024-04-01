@@ -8,7 +8,7 @@ import Contact from './Components/Contact/Contact.jsx'
 import Footer from './Components/Footer/Footer.jsx'
 const App = () => {
   return (
-    <div className='App'>
+    <div className= 'App'>
       <Navbar/>
       <Landing/>
       <Serivces/>

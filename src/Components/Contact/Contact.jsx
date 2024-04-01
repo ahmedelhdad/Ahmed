@@ -7,15 +7,18 @@ const Contact = () => {
   const transiton = { duration: 2, type: "spring" };
 
   const [done, setDone] = useState(false);
-  const [name, setName] = useState();
-  const [email, setEmail] = useState();
-  const [message, setMessage] = useState();
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs
+
+      if(name && email && message)
+      {
+        emailjs
       .sendForm(
-        "service_ov33ex2",
+        "service_1nmryvu",
         "template_op2k1n3",
         form.current,
         "0OnlmpaP7j2gVuJWH"
@@ -32,6 +35,11 @@ const Contact = () => {
           console.log(error.text);
         }
       );
+      }else 
+      {
+        console.log('error')
+      }
+    
   };
 
   return (
@@ -53,17 +61,22 @@ const Contact = () => {
           ref={form}
           onSubmit={sendEmail}
         >
-          <input type="text" name="user_name" value={name} placeholder="Name" />
+          <input type="text" name="user_name" 
+          value={name} 
+          onChange={(e) => setName(e.target.value)}
+          placeholder="Name" />
           <input
             type="email"
             name="user_email"
             value={email}
             placeholder="Email"
+            onChange={(e) => setEmail(e.target.value)}
           />
           <textarea
             name="message"
             value={message}
             placeholder="Message"
+            onChange={(e) => setMessage(e.target.value)}
           ></textarea>
           <button type="submit" value="Sent" className="button">
             Sent

@@ -6,10 +6,13 @@
 {
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(130px,1fr));
-    text-align: center;
     gap: 20px;
     transition: 0.5s;
-
+   
+}
+.work ul  li 
+{
+    text-align: center; 
 }
 .img-work
 {
@@ -26,7 +29,8 @@
 }
 .img-work .box img 
 {
-    max-width: 100%;
+    width: 370px;
+    height: 200px;
 }
 
 .img-work .box  .over
@@ -34,8 +38,8 @@
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
-    height: 97%;
+    width: 370px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;

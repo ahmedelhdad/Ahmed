@@ -1,7 +1,7 @@
 import React from "react";
 import icon from '../../img/humble.png'
 import "./Serivces.css";
-import Cv from './Ahmed Mahmoud.pdf'
+import Cv from './Mern Stack Cv.pdf'
 import {motion} from 'framer-motion'
 const Serivces = () => {
   const transiton = {duration:2,type:'spring'}
@@ -47,6 +47,14 @@ const Serivces = () => {
                     <li>Redux Toolkit</li>
                     <li>React router</li>
                     <li>Next Js</li>
+                    <li>React Formik</li>
+                    <li>React </li>
+                    <li>React Query</li>
+                    <li>Firebase</li>
+                    <li>Node Js</li>
+                    <li>Express</li>
+                    <li>Mongoose db</li>
+                    <li>Socket io</li>
                     <li>Git / GitHub</li>
                 </ul>
             </div>
